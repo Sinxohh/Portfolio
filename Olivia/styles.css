@@ -61,38 +61,4 @@ section {
   gap: 20px;
 }
 
-/* Wrap experience items in a grid */
-.experience-gallery {
-  display: grid;
-  gap: 15px;
-}
-
-/* Mobile: stack vertically */
-.experience-gallery {
-  grid-template-columns: 1fr;
-}
-
-/* Desktop: 3 columns */
-@media (min-width: 768px) {
-  .experience-gallery {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Style for each item */
-.experience-item {
-  background: #fff;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.experience-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  object-fit: cover;
-  max-height: 250px;
-}
-
 }
