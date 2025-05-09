@@ -40,12 +40,6 @@ section {
       "footer footer";
   }
 
-  header { grid-area: header; }
-  .experience { grid-area: experience; }
-  .game { grid-area: game; }
-  .interests { grid-area: interests; }
-  footer { grid-area: footer; }
-
   .experience-item {
     flex-direction: row;
     gap: 16px;
